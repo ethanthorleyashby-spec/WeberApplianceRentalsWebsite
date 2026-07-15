@@ -1,0 +1,53 @@
+/* Element Selectors */
+title{ 
+    text-align: center;
+     font-size: 50px; 
+     color: #0a0518; 
+    }
+
+body{ 
+    background-color: #efefef;
+     font-family: "Arial Black", Gadget, sans-serif;
+      font-size: 20px; color: #0a0518; 
+    }
+
+h1{ 
+    font-size: 40px; 
+    color: #2c1370; 
+    text-align: center; 
+}
+
+/* Box Styles (Class Selector) */
+.box{ 
+    width: 300px; 
+    background-color: #eeebf1; 
+    border: 2px solid #0a0518; 
+    margin: 20px auto; padding: 20px; 
+    box-shadow: 0 0 10px; 
+}
+
+/* Style for the bullet points */
+.bullet{ list-style-type: disc; 
+    margin-left: 20px; 
+    color: #0a0518; 
+    font-size: 20px; 
+}
+
+
+/* Image Styles (ID selector for the banner image) */
+#bannerImage{ 
+    width: 100%; 
+    height: auto; 
+}
+
+.circleImage{ 
+    width: 300px; 
+    height: 215px; 
+    border-radius: 50%; 
+    border: 2px solid #0a0518; 
+    box-shadow: 0 0 10px; 
+}
+
+/* Link Styles */
+a{color: #3ea4c4; text-decoration: none;}
+a:hover{color: #8e37a0; text-decoration: underline;}
